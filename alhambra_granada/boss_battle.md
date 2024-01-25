@@ -1,6 +1,7 @@
 # Activate the fountain
-### @hideIteration false 
-### @flyoutOnly 1
+### @flyoutOnly true
+### @hideIteration true
+### @explicitHints true
 
 
 ```` ghost
@@ -18,7 +19,7 @@
 
 Guide your agent to turn on the fountain and defeat the ``|agent: Dragon||``
 
-### ~ Hint 
+### ~ tutorialhint 
 Reach the lever with your agent. You will need to use 3 ``||loops: repeat||`` in total and 3 ``||agent: agent turn||``
 
 ```  blocks
@@ -40,4 +41,6 @@ for (let index = 0; index < 2; index++) {
          
 
 ```
-
+```package
+github:gregory4312/-atermon_makecode-ts
+```
