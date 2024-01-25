@@ -6,9 +6,14 @@
         "builder": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
+        "krk_island/race_track.md",
+        "krk_island/radio_tower.md",
+        "krk_island/radio_tower_2.md",
+        "krk_island/starting_code.md",
+        "Alhambra_granada/open_the_gate.md",
+        "Alhambra_granada/mosaic.md",
+        "Alhambra_granada/boss_battle.md",
+        "Alhambra_granada/starting_code.md"
     ],
     "testFiles": [
         "test.ts"
