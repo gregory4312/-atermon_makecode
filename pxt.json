@@ -1,11 +1,13 @@
 {
     "name": "-Atermon_Makecode",
     "description": "",
+    "version": "1.0.2",
     "dependencies": {
         "core": "*",
         "builder": "*"
     },
     "files": [
+        "README.md",
         "krk_island/race_track.md",
         "krk_island/radio_tower.md",
         "krk_island/radio_tower_2.md",
