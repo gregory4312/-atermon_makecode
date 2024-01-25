@@ -17,7 +17,7 @@
 
 ## Step 1
 
-Yusuf asked you to repair the Mosaic which used to decorate this floor. Use a ``||loops: repeat||`` and ``|agent: agent place||`` to fix it.
+Aisha asked you to repair the Mosaic which used to decorate this floor. Use a ``||loops: repeat||`` and ``|agent: agent place||`` to fix it.
 
 ### ~ Hint 
 Look at the pattern and then repeat it 4 times!
