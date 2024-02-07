@@ -23,7 +23,7 @@ Use a ``||loops: repeat||`` loop
 ```  blocks
     for (let index = 0; index < 4; index++) {
     agent.move(FORWARD, 6)
-    agent.turn(RIGHT)
+    agent.turn(RIGHT_TURN)
 }
          
 })
