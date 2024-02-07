@@ -2,6 +2,13 @@
 ### @hideIteration true
 ### @explicitHints true
 
+``` ghost
+    count = 0
+    for (let index = 0; index < 4; index++) {
+        agent.move(FORWARD, 1)
+        agent.turn(RIGHT_TURN)
+    }
+```
 # Activate the Radio Tower
 
 ## Step 1
@@ -12,12 +19,14 @@ Let's gather some more materials. In order to make our lives easier, you can hav
 Use a ``||loops: repeat||`` loop
 
 
-``` ghost
-    count = 0
+
+```  blocks
     for (let index = 0; index < 4; index++) {
-        agent.move(FORWARD, 1)
-        agent.turn(RIGHT_TURN)
-    }
+    agent.move(FORWARD, 6)
+    agent.turn(RIGHT)
+}
+         
+})
 ```
 
 ```template
