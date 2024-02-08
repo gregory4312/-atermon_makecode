@@ -1,6 +1,6 @@
 # Set up the Race Track
-### @hideIteration false 
-### @flyoutOnly 1
+### @flyoutOnly true
+### @hideIteration true
 
 
 ``` ghost
