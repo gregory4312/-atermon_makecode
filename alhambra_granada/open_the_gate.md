@@ -25,6 +25,7 @@ You can use a ``||loops: repeat||`` loop to make things easier!
     for (let index = 0; index < 2; index++) {
         agent.move(FORWARD, 5)
         agent.turn(LEFT_TURN)
+        agent.turn(LEFT_TURN)
         agent.move(UP,2)
     }
          
