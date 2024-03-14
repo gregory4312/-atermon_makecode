@@ -20,43 +20,19 @@ Let's set up the antennas to count the score for the race. Have your agent visit
 ### ~ Hint 
 There are multiple ways to solve this. You can also make use of  ``||loops: repeat||`` blocks. Try to find the shortest path
 ```  blocks
-         agent.turn(LEFT_TURN)
-agent.move(FORWARD, 4)
 for (let index = 0; index < 2; index++) {
+agent.move(FORWARD, 4)
 agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 2)
-agent.turn(LEFT_TURN)
-agent.move(FORWARD, 2)
 }
+agent.move(FORWARD, 6)
 agent.turn(RIGHT_TURN)
 agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 5)
+agent.move(FORWARD, 10)
 agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 1)
-agent.turn(LEFT_TURN)
+agent.turn(RIGHT_TURN)
 agent.move(FORWARD, 4)
 agent.turn(LEFT_TURN)
-agent.move(FORWARD, 1)
-agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 1)
-for (let index = 0; index < 2; index++) {
-agent.turn(LEFT_TURN)
-agent.move(FORWARD, 1)
-}
+agent.move(FORWARD, 6)
 
-agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 3)
-agent.turn(LEFT_TURN)
-agent.move(FORWARD, 1)
-for (let index = 0; index < 2; index++) {
-
-agent.turn(RIGHT_TURN)
-agent.move(FORWARD, 1)
-agent.turn(LEFT_TURN)
-agent.move(FORWARD, 2)
-}
-         
-})
 ```
-
 
