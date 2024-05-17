@@ -3,9 +3,8 @@
 ### @explicitHints 1
 
 
-## No code is required for this activity. 
-It looks like you haven't started a new activity or there's no coding needed right now. Go find someone who needs your help!
-
+## Δεν απαιτείται κωδικός για αυτή τη δραστηριότητα.
+Φαίνεται ότι δεν έχετε ξεκινήσει νέα δραστηριότητα ή ότι δεν απαιτείται κωδικοποίηση αυτή τη στιγμή. Πηγαίνετε να βρείτε κάποιον που χρειάζεται τη βοήθειά σας!
 ```template
 player.onChat("run", function () {
 })

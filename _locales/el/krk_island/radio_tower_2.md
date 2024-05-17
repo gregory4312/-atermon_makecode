@@ -9,14 +9,14 @@
         agent.turn(RIGHT_TURN)
     }
 ```
-# Activate the Radio Tower
+# Ενεργοποιήστε τον Πύργο Ραδιοφώνου
 
-## Step 1
+## Βήμα 1
 
-Let's gather some more materials. In order to make our lives easier, you can have the agent perform an activity on repeat. Study the walk pattern and then have the agent gather all the materials in one go. Don't forget to place them in the ``||Loops:on start||`` block.
+Ας συγκεντρώσουμε μερικά ακόμη υλικά. Για να κάνουμε τη ζωή μας πιο εύκολη, μπορείτε να βάλετε τον πράκτορα να εκτελέσει μια δραστηριότητα σε επανάληψη. Μελετήστε το μοτίβο περπατήματος και στη συνέχεια βάλτε τον πράκτορα να συγκεντρώσει όλα τα υλικά με μία κίνηση. Μην ξεχάσετε να τα τοποθετήσετε στο μπλοκ ||Βρόχοι:στην Αρχή|||.
 
-#### ~ tutorialhint  
-Use a ``||loops: repeat||`` loop
+#### ~ Υπόδειξη 
+Χρησιμοποιήστε έναν βρόχο || Βρόχοι: επανάληψη||.
 
 
 

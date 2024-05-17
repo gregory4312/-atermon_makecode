@@ -15,7 +15,11 @@
         "alhambra_granada/open_the_gate.md",
         "alhambra_granada/mosaic.md",
         "alhambra_granada/boss_battle.md",
-        "alhambra_granada/starting_code.md"
+        "alhambra_granada/starting_code.md",
+        "_locales/el/krk_island/race_track.md",
+        "_locales/el/krk_island/radio_tower.md",
+        "_locales/el/krk_island/radio_tower_2.md",
+        "_locales/el/krk_island/starting_code.md"
     ],
     "testFiles": [
         "test.ts"

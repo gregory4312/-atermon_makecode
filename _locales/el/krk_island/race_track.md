@@ -1,4 +1,4 @@
-# Set up the Race Track
+# Ρύθμιση της πίστας αγώνων
 ### @flyoutOnly true
 ### @hideIteration true
 
@@ -14,11 +14,11 @@
    //     
 ```
 
-## Step 1
-Let's set up the antennas to count the score for the race. Have your agent visit the marked spots using ``||agent: agent move forward||`` as well as ``||agent: agent turn||``. Study the walk pattern first and then run your code on the``||Loops:on start||`` block.
+## Βήμα 1
+Ας στήσουμε τις κεραίες για να μετρήσουμε το σκορ του αγώνα. Βάλτε τον πράκτορά σας να επισκεφτεί τα σημεία που έχουν σημειωθεί χρησιμοποιώντας || πράκτορας: πράκτορα κινήσου μπροστά || καθώς και || πράκτορας: πράκτορα γύρνα ||. Μελετήστε πρώτα το μοτίβο περιπάτου και στη συνέχεια εκτελέστε τον κώδικά σας στο μπλοκ||Βρόχοι:στην αρχή||.
 
-### ~ Hint 
-There are multiple ways to solve this. You can also make use of  ``||loops: repeat||`` blocks. Try to find the shortest path
+### ~ Υπόδειξη 
+Υπάρχουν πολλαπλοί τρόποι για να λύσετε αυτό το πρόβλημα. Μπορείτε επίσης να χρησιμοποιήσετε τα μπλοκ ||Βρόχοι: επανάληψη||. Προσπαθήστε να βρείτε τη συντομότερη διαδρομή
 ```  blocks
 agent.turn(LEFT_TURN)
 for (let index = 0; index < 2; index++) {

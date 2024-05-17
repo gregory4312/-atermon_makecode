@@ -1,4 +1,4 @@
-# Activate the Radio Tower
+# Ενεργοποιήστε τον Πύργο Ραδιοφώνου
 ### @hideIteration true 
 ### @flyoutOnly 1
 
@@ -14,12 +14,12 @@
 ```
 
 
-## Step 1
+## Βήμα 1
 
-We need to fix the Radio Tower. Use your agent to collect the resources on the map. Use multiple ``||agent: agent move forward||`` as well as ``||agent: agent turn||`` blocks and place them in the ``||Loops:on start||`` block. When you're finished, click **RUN**. Careful, do it in a single run or else it won't work.
+Πρέπει να φτιάξουμε τον πύργο ραδιοφώνου. Χρησιμοποιήστε τον πράκτορά σας για να συλλέξετε τις πρώτες ύλες στο χάρτη. Χρησιμοποιήστε πολλαπλά μπλοκ ||πράκτορας: πράκτορα κινήσου μπροστά|| καθώς και ||πράκτορας: πράκτορα γύρνα|| και τοποθετήστε τα στο μπλοκ ||Βρόχοι:στην αρχή||. Όταν τελειώσετε, κάντε κλικ στο κουμπί ΤΡΕΞΕ. Προσοχή, κάντε το σε μία μόνο εκτέλεση, αλλιώς δεν θα λειτουργήσει.
 
-### ~ Hint 
-You can change the number of steps your Agent will move by changing the number inside the ``||agent: agent move||`` block. You also can use an ``||agent: agent turn||`` block to turn the Agent to the left or right.
+### ~ Υπόδειξη 
+Μπορείτε να αλλάξετε τον αριθμό των βημάτων που θα μετακινηθεί ο πράκτοράς σας αλλάζοντας τον αριθμό μέσα στο μπλοκ ||πράκτορας: πράκτορα μετακινήσου||. Μπορείτε επίσης να χρησιμοποιήσετε το μπλοκ ||πράκτορας: πράκτορα γύρνα||| για να στρέψετε τον πράκτορα προς τα αριστερά ή προς τα δεξιά.
 
 ```  blocks
          agent.move(FORWARD, 2)
