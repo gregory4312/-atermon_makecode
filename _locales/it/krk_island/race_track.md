@@ -1,4 +1,4 @@
-# Set up the Race Track
+# Prepara la pista da corsa
 ### @flyoutOnly true
 ### @hideIteration true
 
@@ -14,11 +14,12 @@
    //     
 ```
 
-## Step 1
-Let's set up the antennas to count the score for the race. Have your agent visit the marked spots using ``||agent: agent move forward||`` as well as ``||agent: agent turn||``. Study the walk pattern first and then run your code on the``||Loops:on start||`` block.
+## Passo 1
+Impostiamo le antenne per contare il punteggio per la gara. Chiedi al tuo agente di visitare i punti contrassegnati utilizzando ||agent: agent move forward||  così come ||agent: agent turn||. Studia prima il modello di camminata e poi esegui il codice sul blocco||Loops:on start||.
 
-### ~ Hint 
-There are multiple ways to solve this. You can also make use of  ``||loops: repeat||`` blocks. Try to find the shortest path
+### ~ Suggerimento 
+Esistono diversi modi per risolvere questo problema. È inoltre possibile utilizzare i bocchi ||loops: repeat||. Prova a trovare il percorso più breve
+
 ```  blocks
 agent.turn(LEFT_TURN)
 for (let index = 0; index < 2; index++) {

@@ -9,15 +9,14 @@
         agent.turn(RIGHT_TURN)
     }
 ```
-# Activate the Radio Tower
+# Activeer de radiotoren
 
-## Step 1
+## Stap 1
 
-Let's gather some more materials. In order to make our lives easier, you can have the agent perform an activity on repeat. Study the walk pattern and then have the agent gather all the materials in one go. Don't forget to place them in the ``||Loops:on start||`` block.
+Laten we wat meer materiaal verzamelen. Om ons het leven gemakkelijker te maken, kun je de agent een activiteit op herhaling laten uitvoeren. Bestudeer het looppatroon en laat de agent dan alle materialen in één keer verzamelen. Vergeet niet om ze in het blok ||Loops:on start|| te plaatsen.
 
-#### ~ tutorialhint  
-Use a ``||loops: repeat||`` loop
-
+#### ~ Tip  
+Gebruik een ||loops: repeat| lus
 
 
 ```  blocks

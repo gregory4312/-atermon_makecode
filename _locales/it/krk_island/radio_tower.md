@@ -1,4 +1,4 @@
-# Activate the Radio Tower
+# Attiva la torre radio
 ### @hideIteration true 
 ### @flyoutOnly 1
 
@@ -14,12 +14,12 @@
 ```
 
 
-## Step 1
+## Passo 1
 
-We need to fix the Radio Tower. Use your agent to collect the resources on the map. Use multiple ``||agent: agent move forward||`` as well as ``||agent: agent turn||`` blocks and place them in the ``||Loops:on start||`` block. When you're finished, click **RUN**. Careful, do it in a single run or else it won't work.
+Dobbiamo sistemare la Torre Radio. Usa il tuo agente per raccogliere le risorse sulla mappa. Usa più volte i blocchi||agent: agent move forward|| così come ||agent: agent turn|| e posizionali nel blocco ||Loops:on start||. Al termine, fare clic su ESEGUI. Attenzione, fallo in una sola volta altrimenti non funzionerà.
 
-### ~ Hint 
-You can change the number of steps your Agent will move by changing the number inside the ``||agent: agent move||`` block. You also can use an ``||agent: agent turn||`` block to turn the Agent to the left or right.
+### ~ Suggerimento 
+Puoi modificare il numero di passi che il tuo agente farà cambiando il numero all'interno del blocco ||agent: agent move||. È anche possibile utilizzare un blocco ||agent: agent turn||  per girare l'agente a sinistra o a destra.
 
 ```  blocks
          agent.move(FORWARD, 2)

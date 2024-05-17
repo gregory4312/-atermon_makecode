@@ -1,4 +1,4 @@
-# Set up the Race Track
+# De renbaan instellen
 ### @flyoutOnly true
 ### @hideIteration true
 
@@ -14,11 +14,11 @@
    //     
 ```
 
-## Step 1
-Let's set up the antennas to count the score for the race. Have your agent visit the marked spots using ``||agent: agent move forward||`` as well as ``||agent: agent turn||``. Study the walk pattern first and then run your code on the``||Loops:on start||`` block.
+## Stap 1
+Laten we de antennes opstellen om de score voor de race te tellen. Laat je agent de gemarkeerde plekken bezoeken met behulp van ||agent: agent move forward| en ||agent: agent turn||. Bestudeer eerst het looppatroon en voer dan je code uit op het blok Loops:on start.
 
-### ~ Hint 
-There are multiple ways to solve this. You can also make use of  ``||loops: repeat||`` blocks. Try to find the shortest path
+### ~ Tip 
+HintEr zijn meerdere manieren om dit op te lossen. Je kunt ook gebruik maken van ||loops: repeat|| blokken. Probeer het kortste pad te vinden
 ```  blocks
 agent.turn(LEFT_TURN)
 for (let index = 0; index < 2; index++) {

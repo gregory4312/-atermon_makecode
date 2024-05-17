@@ -3,8 +3,8 @@
 ### @explicitHints 1
 
 
-## No code is required for this activity. 
-It looks like you haven't started a new activity or there's no coding needed right now. Go find someone who needs your help!
+## Voor deze activiteit is geen code nodig.
+Het lijkt erop dat je nog geen nieuwe activiteit hebt gestart of dat er op dit moment geen codering nodig is. Ga op zoek naar iemand die je hulp nodig heeft!
 
 ```template
 player.onChat("run", function () {
