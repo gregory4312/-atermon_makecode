@@ -19,7 +19,11 @@
         "_locales/el/krk_island/race_track.md",
         "_locales/el/krk_island/radio_tower.md",
         "_locales/el/krk_island/radio_tower_2.md",
-        "_locales/el/krk_island/starting_code.md"
+        "_locales/es/krk_island/starting_code.md",
+        "_locales/es/krk_island/race_track.md",
+        "_locales/es/krk_island/radio_tower.md",
+        "_locales/es/krk_island/radio_tower_2.md",
+        "_locales/es/krk_island/starting_code.md"
     ],
     "testFiles": [
         "test.ts"

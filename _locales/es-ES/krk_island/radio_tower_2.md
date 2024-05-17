@@ -9,15 +9,14 @@
         agent.turn(RIGHT_TURN)
     }
 ```
-# Activate the Radio Tower
+# Activar la Torre de Radio
 
-## Step 1
+## Paso 1
 
-Let's gather some more materials. In order to make our lives easier, you can have the agent perform an activity on repeat. Study the walk pattern and then have the agent gather all the materials in one go. Don't forget to place them in the ``||Loops:on start||`` block.
+Reunamos más materiales. Para facilitarnos la vida, puedes hacer que el agente realice una actividad de forma repetida. Estudia el patrón de paseo y luego haz que el agente recoja todos los materiales de una sola vez. No olvides colocarlos en el bloque ||Loops:al inicio||.
 
-#### ~ tutorialhint  
-Use a ``||loops: repeat||`` loop
-
+#### ~ Pista 
+Utilizar un bucle ||loops: repetir||
 
 
 ```  blocks
