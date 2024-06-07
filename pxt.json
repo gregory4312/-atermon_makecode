@@ -47,7 +47,15 @@
         "_locales/nl/alhambra_granada/open_the_gate.md",
         "_locales/nl/alhambra_granada/mosaic.md",
         "_locales/nl/alhambra_granada/boss_battle.md",
-        "_locales/nl/alhambra_granada/starting_code.md"
+        "_locales/nl/alhambra_granada/starting_code.md",
+        "Croatian/krk_island/race_track.md",
+        "Croatian/krk_island/radio_tower.md",
+        "Croatian/krk_island/radio_tower_2.md",
+        "Croatian/krk_island/starting_code.md",
+        "Croatian/alhambra_granada/open_the_gate.md",
+        "Croatian/alhambra_granada/mosaic.md",
+        "Croatian/alhambra_granada/boss_battle.md",
+        "Croatian/alhambra_granada/starting_code.md"
     ],
     "testFiles": [
         "test.ts"
