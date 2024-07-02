@@ -55,7 +55,15 @@
         "Croatian/alhambra_granada/open_the_gate.md",
         "Croatian/alhambra_granada/mosaic.md",
         "Croatian/alhambra_granada/boss_battle.md",
-        "Croatian/alhambra_granada/starting_code.md"
+        "Croatian/alhambra_granada/starting_code.md",
+        "Latvian/krk_island/race_track.md",
+        "Latvian/krk_island/radio_tower.md",
+        "Latvian/krk_island/radio_tower_2.md",
+        "Latvian/krk_island/starting_code.md",
+        "Latvian/alhambra_granada/open_the_gate.md",
+        "Latvian/alhambra_granada/mosaic.md",
+        "Latvian/alhambra_granada/boss_battle.md",
+        "Latvian/alhambra_granada/starting_code.md"
     ],
     "testFiles": [
         "test.ts"
